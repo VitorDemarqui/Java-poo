@@ -8,6 +8,7 @@ import java.time.LocalTime;
 public class Exemplo012 {
     public static void main(String[] args) {
 
+        //diferente a local date ele trabalha tambem com horas
         LocalTime agora = LocalTime.now();
 
         System.out.println(agora);

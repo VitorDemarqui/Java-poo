@@ -45,9 +45,6 @@ public class Exercicio001 {
      * @return
      */
     public long dateToLong() {
-
-
-
         return 0L;
     }
 

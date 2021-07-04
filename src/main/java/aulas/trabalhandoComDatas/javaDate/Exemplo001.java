@@ -12,7 +12,7 @@ public class Exemplo001 {
         Date novaData = new Date();
 
         System.out.println(novaData);
-
+        //retorna a data atual com horas minutos e segundos, contendo ate mesmo dia
     }
 
 }

@@ -11,6 +11,7 @@ public class Exemplo009 {
 
         Date agora = new Date();
 
+        //seleciona o formato de qual o tipo de data queremos
         SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
 
         String dataFormatada = formatter.format(agora);

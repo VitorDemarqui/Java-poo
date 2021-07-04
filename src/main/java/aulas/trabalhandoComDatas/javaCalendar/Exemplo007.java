@@ -10,6 +10,13 @@ public class Exemplo007 {
 
         Calendar agora = Calendar.getInstance();
 
+
+
+
+            //CONVERSOES DA CLASSE CALENDAR
+
+
+
         System.out.printf("%tc\n", agora);
         //Dom jul 14 20:58:11 BRT 2019
 

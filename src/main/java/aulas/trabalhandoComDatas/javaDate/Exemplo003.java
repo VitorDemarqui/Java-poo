@@ -16,6 +16,7 @@ public class Exemplo003 {
         //Fri Feb 12 08:13:27 BRST 2021
 
         /** Comparando se a dataNoPassado é posterior a dataNoFuturo */
+        //verifica se a data no passado é posterior e retorna um bool
         boolean isAfter = dataNoPassado.after(dataNoFuturo);
 
         System.out.println(isAfter);

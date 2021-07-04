@@ -13,6 +13,7 @@ public class Exemplo013 {
         System.out.println(agora);
         // 23:53:58.421
 
+        //adiciona uma hora ao nosso objeto "agora" e atribui a mais uma hora
         LocalTime maisUmaHora = agora.plusHours(1);
 
         System.out.println(maisUmaHora);

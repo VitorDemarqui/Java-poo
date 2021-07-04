@@ -10,6 +10,7 @@ public class Exemplo011 {
 
         LocalDate hoje = LocalDate.now();
 
+        //retira um dia ao nosso objeto hoje e atibuimos a variavel ontem
         LocalDate ontem = hoje.minusDays(1);
 
         System.out.println(hoje);

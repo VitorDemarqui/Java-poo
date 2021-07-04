@@ -9,8 +9,10 @@ import java.util.Date;
 public class Exemplo008 {
     public static void main(String[] args) {
 
+        //INSTANCIA NOVA DATA
         Date agora = new Date();
 
+        //retorna uma instancia de object de instance e inserindo um .format
         String dateToStr = DateFormat.getInstance().format(agora);
         System.out.println(dateToStr);
         // 15/07/19 22:13

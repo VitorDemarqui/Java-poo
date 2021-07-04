@@ -7,8 +7,9 @@ import java.util.Calendar;
  */
 public class Exemplo005 {
     public static void main(String[] args) {
-
+        //retorna um objeto parecido com o milisegundo mais proximo
         Calendar agora = Calendar.getInstance();
+
 
         System.out.println(agora);
         /*  java.util.GregorianCalendar[
